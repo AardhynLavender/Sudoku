@@ -1,11 +1,11 @@
-import { Title } from "solid-start";
+import { Title } from 'solid-start';
+import Board from '~/components/Board';
 
 export default function App() {
-  return (
-    <main>
-      <Title>Sudoku</Title>
-      <h1>Sudoku</h1>
-      <p>Coming soon...</p>
-    </main>
-  );
+	return (
+		<main>
+			<Title>Sudoku</Title>
+			<Board />
+		</main>
+	);
 }
